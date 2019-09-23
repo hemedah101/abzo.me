@@ -12,6 +12,26 @@ module.exports = {
     'styled-components',
     '@babel/plugin-proposal-class-properties',
     '@babel/plugin-syntax-dynamic-import',
+    [
+      'babel-plugin-import',
+      {
+        libraryName: '@material-ui/core',
+        // Use "'libraryDirectory': ''," if your bundler does not support ES modules
+        libraryDirectory: '',
+        camel2DashComponentName: false,
+      },
+      'core',
+    ],
+    [
+      'babel-plugin-import',
+      {
+        libraryName: '@material-ui/icons',
+        // Use "'libraryDirectory': ''," if your bundler does not support ES modules
+        libraryDirectory: '',
+        camel2DashComponentName: false,
+      },
+      'icons',
+    ],
   ],
   env: {
     production: {
