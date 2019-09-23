@@ -18,7 +18,7 @@ export default defineMessages({
   },
   backendSubtitle: {
     id: `${scope}.backendSubtitle`,
-    defaultMessage: `Node.js, Graphql and SQL`,
+    defaultMessage: `Node.js, Graphql and Express`,
   },
   frontendTitle: {
     id: `${scope}.frontendTitle`,

@@ -35,6 +35,10 @@ const GlobalStyle = createGlobalStyle`
   label {
     line-height: 1.5em;
   }
+
+  li{
+    margin-bottom: 0.5em;
+  }
 `;
 
 export default GlobalStyle;
