@@ -11,6 +11,10 @@ export const scope = 'app.containers.Contact';
 export default defineMessages({
   header: {
     id: `${scope}.header`,
-    defaultMessage: 'This is the Contact container!',
+    defaultMessage: 'There are worse things you could do.',
+  },
+  email: {
+    id: `${scope}.email`,
+    defaultMessage: 'Hemedah94@gmail.com.',
   },
 });

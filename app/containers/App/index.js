@@ -13,6 +13,8 @@ import { Helmet } from 'react-helmet';
 
 import HomePage from 'containers/HomePage/Loadable';
 import Resume from 'containers/Resume/Loadable';
+import Portfolio from 'containers/Portfolio/Loadable';
+import Contact from 'containers/Contact/Loadable';
 import NotFoundPage from 'containers/NotFoundPage/Loadable';
 import Header from 'components/Header';
 import Footer from 'components/Footer';
@@ -29,6 +31,8 @@ export default function App() {
       <Switch>
         <Route exact path="/" component={HomePage} />
         <Route path="/resume" component={Resume} />
+        <Route path="/portfolio" component={Portfolio} />
+        <Route path="/contact" component={Contact} />
         <Route component={NotFoundPage} />
       </Switch>
       <Footer />
