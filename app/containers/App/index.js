@@ -35,7 +35,7 @@ export default function App() {
         <Route path="/contact" component={Contact} />
         <Route component={NotFoundPage} />
       </Switch>
-      <Footer />
+      {/* <Footer /> */}
       <GlobalStyle />
     </div>
   );

@@ -29,6 +29,7 @@ const useStyles = makeStyles(theme => ({
     marginBottom: '1.5em',
     fontWeight: 400,
     marginTop: theme.spacing(5),
+    textAlign: 'center',
   },
   icon: {
     fontSize: 70,

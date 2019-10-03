@@ -11,6 +11,10 @@ export const scope = 'app.containers.Portfolio';
 export default defineMessages({
   header: {
     id: `${scope}.header`,
-    defaultMessage: 'This is the Portfolio container!',
+    defaultMessage: `Here are some projects I haven't disavowed yet.`,
+  },
+  timestamp: {
+    id: `${scope}.timestamp`,
+    defaultMessage: `Timestamp Microservice`,
   },
 });

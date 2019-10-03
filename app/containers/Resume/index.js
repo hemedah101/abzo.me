@@ -30,10 +30,12 @@ const useStyles = makeStyles(theme => ({
     textAlign: 'center',
   },
   content: {
-    display: 'flex',
-    flexDirection: 'column',
+    // display: 'flex',
+    // flexDirection: 'column',
     alignItems: 'start',
-    marginLeft: '4em',
+    [theme.breakpoints.up('md')]: {
+      marginLeft: '8em',
+    },
   },
   title: {
     margin: 0,
@@ -50,7 +52,9 @@ const useStyles = makeStyles(theme => ({
   },
   noList: {
     listStyleType: 'none',
-    marginLeft: '4em',
+    [theme.breakpoints.up('md')]: {
+      marginLeft: '8em',
+    },
   },
   text: {
     marginTop: 0,
@@ -59,7 +63,9 @@ const useStyles = makeStyles(theme => ({
   education: {
     marginTop: '-1em',
     fontWeight: 300,
-    marginLeft: '7em',
+    [theme.breakpoints.up('md')]: {
+      marginLeft: '10.5em',
+    },
   },
 }));
 

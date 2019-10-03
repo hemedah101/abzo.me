@@ -29,6 +29,7 @@ const GlobalStyle = createGlobalStyle`
   height: 2.5rem;
   text-align: center;
   font-weight: 300;
+  margin-top: 3rem
   }
 
   p,
