@@ -111,6 +111,24 @@ export function Portfolio() {
             View site
           </a>
         </section>
+        <section className={classes.divider}>
+          <h1 className={classes.title}>Ecommerce Backend</h1>
+          <p className={classes.subtitle}>
+            <InfoOutlinedIcon className={classes.icon} />
+            eCommerce backend APIs using node.js and MySQL database
+          </p>
+          <p className={classes.subtitle}>
+            <KeyboardOutlinedIcon className={classes.icon} />
+            Node.js, Express, MySQL, Javascript
+          </p>
+          <a
+            href="https://github.com/ABZ0/MySQL-ecommerce"
+            className={classes.link}
+          >
+            <LinkOutlinedIcon className={classes.icon} />
+            View on github
+          </a>
+        </section>
       </Container>
     </Container>
   );
