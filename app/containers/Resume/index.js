@@ -112,7 +112,7 @@ export function Resume() {
           <li>
             <strong>Languages and runtimes</strong>
             <p className={classes.text}>
-              JavaScript, Typescript, Node.js, Graphql, HTML, CSS
+              JavaScript, Typescript, Node.js, HTML, CSS
             </p>
           </li>
           <li>
