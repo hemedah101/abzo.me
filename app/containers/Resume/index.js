@@ -84,7 +84,21 @@ export function Resume() {
         </h1>
         <div className={classes.content}>
           <h2 className={classes.title}>
-            <strong>Backend Developer</strong>, 2019 - present
+            <strong>Full Stack Developer at Gray</strong>, November 2019 -
+            present
+          </h2>
+          <ul className={classes.list}>
+            <li>I'm working on attendance by WiFi Project .</li>
+            <li>
+              My work Includes developing the backend of the project using
+              NestJs, MongoDB and Websockets.
+            </li>
+            <li>I also develop the program control panel on the front end.</li>
+          </ul>
+        </div>
+        <div className={classes.content}>
+          <h2 className={classes.title}>
+            <strong>Backend Developer</strong>, May 2019 - October 2019
           </h2>
           <ul className={classes.list}>
             <li>I'm working on some freelance projects.</li>
@@ -139,8 +153,7 @@ export function Resume() {
         </h1>
         <div>
           <p className={classes.education}>
-            I have a bachelor's degree from Damanhour University. In pharmacy
-            ¯\_(ツ)_/¯.
+            I have a bachelor degree from Damanhour University.
           </p>
         </div>
       </section>

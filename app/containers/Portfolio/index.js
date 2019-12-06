@@ -76,21 +76,39 @@ export function Portfolio() {
       </h1>
       <Container maxWidth="sm">
         <section className={classes.divider}>
-          <h1 className={classes.title}>Timestamp Microservice</h1>
+          <h1 className={classes.title}>WiFi Attendance API</h1>
           <p className={classes.subtitle}>
             <InfoOutlinedIcon className={classes.icon} />
-            Backend node api to get timestamps
+            API that takes employees attendance and tracks their working Hours
           </p>
           <p className={classes.subtitle}>
             <KeyboardOutlinedIcon className={classes.icon} />
-            Node.js, Express, Typescript
+            NestJs, MongoDB, WebSockets, Express, Typescript
           </p>
           <a
-            href="https://github.com/ABZ0/timestamp-microservice"
+            href="https://gas-api.graysoftwares.com/docs/"
             className={classes.link}
           >
             <LinkOutlinedIcon className={classes.icon} />
-            View on github
+            View site
+          </a>
+        </section>
+        <section className={classes.divider}>
+          <h1 className={classes.title}>WiFi Attendance Control Panel</h1>
+          <p className={classes.subtitle}>
+            <InfoOutlinedIcon className={classes.icon} />
+            For managers to create organizations, invite and monitor employees
+          </p>
+          <p className={classes.subtitle}>
+            <KeyboardOutlinedIcon className={classes.icon} />
+            React, Redux, Socket.io
+          </p>
+          <a
+            href="https://gas-cpanel.graysoftwares.com/"
+            className={classes.link}
+          >
+            <LinkOutlinedIcon className={classes.icon} />
+            View site
           </a>
         </section>
         <section className={classes.divider}>
